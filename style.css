@@ -1,0 +1,175 @@
+body {
+ background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width:40%;
+}
+li {
+  float: left;
+}
+li a {
+  display:block;
+  color: #26658c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+li a:hover {
+  background-color: #b3cfe5;
+}
+h1 {
+  color: navy;
+  margin-left: 50px;
+  font-size: 100px;
+}
+p {
+	color:#6667ab;
+	font-size: 20px;
+	margin-left: 70px;
+	padding:10px;
+	line-height:1.8;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	float:right;
+	width:600px;
+	height:600px;
+
+}
+table {
+	border-collapse: collapse;
+	width: 70%;
+	margin: auto;
+}
+th,td {
+	text-align: left;
+	padding: 30px;
+	font-size: 30px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+th {
+	background-color: navy;
+	color: white;
+}
+footer {
+	text-align: center;
+	margin-top:400px;
+	background-color: #4a7fa7;
+	color: white;
+	font-size:20px;
+	padding:30px;
+}
+h2 {
+	text-align:center;
+	font-size:40px;
+	color:navy;
+}
+form {
+	padding: 30px;
+	background-color: #f2f2f2;
+	margin: auto;
+	margin-top: 100px;
+	width:40%;
+}
+label {
+	padding:20px;
+	margin-left:10px;
+}
+input[type=text] {
+	 width: 80%;
+     padding: 12px;
+     margin: 8px 10px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+}
+input[type=submit] {
+	font-size:15px;
+	width:10%;
+}
+input[type=submit]:hover {
+	background-color: #b3cfe5;
+}
+textarea {
+	width:70%;
+	padding:30px;
+	background-color:white;
+}
+@media screen and (max-width: 768px) {
+	ul{
+		width: 100%;
+	}
+	h1 {
+		font-size:60px;
+		margin-left:0;
+		text-align: left;
+	}
+	p {
+		margin-left: 20px;
+		font-size: 18px;
+	}
+	img {
+		margin: auto;
+		width: 90%;
+		float: none;
+	}
+	table {
+	width: 95%;
+	}
+	th,td {
+	padding: 15px;
+	font-size: 18px;
+	}
+    form {
+		width: 80%;
+		padding: 20px;
+	}
+	input[type=submit] {
+		width: 20%;
+	}
+}
+@media screen and (max-width: 400px) {
+	ul {
+		width:100%;
+	}
+	h1 {
+		font-size: 55px;
+		margin-left: 0;
+		text-align:left;
+	}
+	p {
+		margin-left: 15px;
+	    font-size: 16px;
+		text-align: justify;
+	}
+	img {
+		width: 90%;
+		margin: 20px auto;
+	}
+	table {
+	width: 100%;
+	}
+	th,td {
+	padding: 8px;
+	font-size: 14px;	
+	}
+    form {
+		width: 95%;
+		padding: 15px;
+		margin-top: 20px;
+	}
+	input[type=submit] {
+		width: 30%;
+	}
+}
+}
